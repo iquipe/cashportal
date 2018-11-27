@@ -9,8 +9,31 @@
 function logout(){
     session_unset();
     session_destroy();
-    setcookie("user", "", time() - 3600);
+    setcookie("user-token", "", time() - (86400 * 30));
+    setcookie("user-account", "", time() - (86400 * 30));
+    setcookie("user-track-id", "", time() -(86400 * 30));
+    setcookie("user-status-id", "", time() - (86400 * 30));
     header("location: index.php");
+}
+
+function top_up_account($conn,$userID){
+
+    $sql="SELECT * FROM `get_top_up_user_acct` where  userID='$userID' ORDER BY tranID DESC LIMIT 0,8";
+    $result = mysqli_query($conn,$sql);
+    if (mysqli_num_rows($result) > 0) {
+        // output data of each row
+        while($row = mysqli_fetch_assoc($result)) {
+            echo "
+                <tr>
+                    <td>{$row['tran_time']}</td>
+                    <td>{$row['ref']}</td>
+                    <td>{$row['account']}</t>
+                    <td>{$row['mobile']}</td>
+                    <td class=\"text-right\">{$row['amount']}</td>
+                </tr>
+    ";
+        }
+    }
 }
 
 function user_transaction($conn,$userID){

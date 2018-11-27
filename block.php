@@ -8,6 +8,8 @@
 
 include_once "setup.php";
 include_once "control/db.php";
+include_once "global/session.php";
+include_once "plugin/qrcode/qrlib.php";
 include_once "modules/users.profile.php";
 include_once "modules/user.wallet.php";
 
@@ -25,25 +27,13 @@ if (!isset($_COOKIE['user-token'])){
             echo "invalid ui session";
         }else{
             $action = $_POST['submit'];
-
-            switch ($action){
-
-                case"logout";
-                    logout();
-                    break;
-
-                case "profile";
-                    UserProfile::update_profile($conn);
-                break;
-
-                case"send-cash-wallet";
-                    UserWallet::send_cash($conn);
-                break;
-
-                default;
-                    echo "page not found";
+            if ($userStatus ==3){
+                require_once "modules/super.block.navigation.php";
+            }elseif ($userStatus == 2){
+                require_once "modules/admin.block.navigation.php";
+            }else{
+                require_once "modules/user.block.navigation.php";
             }
-
         }
     }
 }

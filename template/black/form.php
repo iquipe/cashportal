@@ -28,6 +28,7 @@
     <link href="template/black/assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="template/black/assets/demo/demo.css" rel="stylesheet" />
+
 </head>
 
 <body class=" ">
@@ -137,7 +138,7 @@
                                 </li>
                                 <div class="dropdown-divider"></div>
                                 <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Log out</a>
+                                    <a href="index.php?u=user&ui=logout&e=0" class="nav-item dropdown-item">Log out</a>
                                 </li>
                             </ul>
                         </li>

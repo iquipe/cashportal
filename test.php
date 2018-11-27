@@ -6,4 +6,6 @@
  * Time: 7:04 AM
  */
 
-echo "If you view the page source \n you will find a newline in this";
+require_once "modules/crypto.pay.out.php";
+
+?>

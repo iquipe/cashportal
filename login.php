@@ -37,13 +37,28 @@ if(!$_SERVER["REQUEST_METHOD"] ==="POST"){
             if(isset($login["token"])){
 
                 $token = $login["token"];
+                $userStatus = ((($login['statusID']*2)-16043572)/1024);
                 $account = $login["account"];
                 $userID = ((($login['userID']*2)-16043572)/1024);
                 $_SESSION['user-token'] = $token;
+
                 setcookie("user-token",$token,time()+(86400 * 30),"/");
                 setcookie("user-account",$account,time()+(86400 * 30),"/");
                 setcookie("user-track-id",$userID,time()+(86400 * 30),"/");
-                header("location: index.php?u=user&ui=dashboard&e=1");
+                setcookie("user-status-id",$userStatus,time()+(86400 * 30),"/");
+
+                switch ($userStatus){
+                    case 3:
+                        header("location: index.php?u=super.admin&ui=dashboard&e=1");
+                    break;
+
+                    case 2:
+                        header("location: index.php?u=admin&ui=dashboard&e=1");
+                        break;
+                    default:
+                        header("location: index.php?u=user&ui=dashboard&e=1");
+                }
+
             }else{
                 header("location: index.php?validate=1");
             }

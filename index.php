@@ -9,7 +9,6 @@
 if (file_exists("control/config.php")){
 
     include_once "control/config.php";
-    include_once "global/session.php";
     include_once "global/function.php";
 
     if (isset($_REQUEST['_route'])){
@@ -17,11 +16,11 @@ if (file_exists("control/config.php")){
         //link to super admin
         if ($_REQUEST['_route'] === "super-admin"){
             echo "super admin";
-
+           // include_once "template/argon/log.in.php";
         //link to admin
         }elseif($_REQUEST['_route'] ==="admin"){
-            echo"admin";
-
+            $template->user = "administrator";
+            include_once "template/argon/log.in.php";
         //link to sign up
         }elseif($_REQUEST['_route'] === "sign-up"){
             include_once "template/argon/sign.up.php";
@@ -34,7 +33,9 @@ if (file_exists("control/config.php")){
             include_once "modules/system.error.php";
             include_once "modules/user.nav.php";
         }elseif ($_REQUEST['u'] === "admin"){
-            echo"admin";
+            //load the admin-interface navigation
+            include_once "modules/system.error.php";
+            include_once "modules/admin.nav.php";
         }elseif ($_REQUEST['u'] === "super-admin"){
             echo "super admin";
         }else{

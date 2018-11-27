@@ -110,17 +110,16 @@ class UserWallet {
                         if ($msg == 1701){
 
                             //$respone->Status = "successful";
-                            // $respone->code = "1701";
+                             $respone->code = "1701";
                             //$respone->to = $request->to;
                             //$respone->from = $request->from;
-                            header("?u=user&ui=wallet&e=2&sms=1701");
+
                         }else{
 
                             //$respone->Status = "Failed";
-                            // $respone->code = "1702";
+                             $respone->code = "1702";
                             //$respone->to = $request->to;
                             //$respone->from = $request->from;
-                            header("?u=user&ui=wallet&e=2&sms=1702");
                         }
                     }
 
@@ -150,18 +149,17 @@ class UserWallet {
                         if ($msg == 1701){
 
                             //$respone->Status = "successful";
-                            echo $respone->code = "1701";
+                            $respone->code = "1701";
                             //$respone->to = $request->to;
                             //$respone->from = $request->from;
-                            header("?u=user&ui=wallet&e=2&sms=1701");
+
                             //bill the sender with charger
                         }else{
 
                             //$respone->Status = "Failed";
-                            echo $respone->code = "1702";
+                                $respone->code = "1702";
                             //$respone->to = $request->to;
                             //$respone->from = $request->from;
-                            header("?u=user&ui=wallet&e=2&sms=1702");
                         }
 
                     }
@@ -172,6 +170,8 @@ class UserWallet {
                     $result->bind_param("sssssss",$userID,$now,$date,$description,$refer,$pay,$charges);
 
                     $result->execute();
+
+                    header("location: index.php?u=user&ui=wallet&e=2&sms={$respone->code}");
                 }else{
                     header("location: ?e=104");
                     exit(0);

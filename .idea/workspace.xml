@@ -1,369 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52c9881b-754f-4fff-9d96-b827b31036f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global/session.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/system.error.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/user.nav.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/portal.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sign.up.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/css/argon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/css/argon.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/brand/blue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/brand/creativetim-white-slim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/brand/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/brand/white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/icons/common/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/icons/common/google.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/ill/ill-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/img-1-1200x1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/img-2-1200x1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/landing.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/promo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/team-1-800x800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/team-2-800x800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/team-3-800x800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/img/theme/team-4-800x800.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/js/argon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/js/argon.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/argon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_accordion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_avatars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_section.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_separator.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/mixins/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_backgrounds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_floating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_helper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/utilities/_transform.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/vendor/_bootstrap-datepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/vendor/_headroom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/scss/custom/vendor/_nouislider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/bootstrap/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/headroom/headroom.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nouislider/css/nouislider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nouislider/css/nouislider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nouislider/js/nouislider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nouislider/js/nouislider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nucleo/css/nucleo-svg.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nucleo/css/nucleo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nucleo/fonts/nucleo-icons.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nucleo/fonts/nucleo-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nucleo/fonts/nucleo-icons.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nucleo/fonts/nucleo-icons.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/nucleo/fonts/nucleo-icons.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/onscreen/onscreen.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/popper/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/assets/vendor/popper/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/log.in.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/sign.up.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/css/black-dashboard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/css/black-dashboard.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/css/black-dashboard.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/css/nucleo-icons.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/demo/demo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/demo/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/fonts/nucleo.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/fonts/nucleo.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/fonts/nucleo.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/fonts/nucleo.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/anime3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/anime6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/apple-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/bg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/default-avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/emilyz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/header.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/img_3115.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/james.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/img/mike.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/black-dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/black-dashboard.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/black-dashboard.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/core/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/core/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/core/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/plugins/bootstrap-notify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/plugins/chartjs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/js/plugins/perfect-scrollbar.jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_checkboxes-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_fixed-plugin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_footers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_rtl.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_sidebar-and-main-panel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/_white-content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/cards/_card-animation-on-hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/cards/_card-chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/cards/_card-map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/cards/_card-plain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/cards/_card-task.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/cards/_card-user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/mixins/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/mixins/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/mixins/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/mixins/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/mixins/_transparency.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/plugins/_plugin-animate-bootstrap-notify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/assets/scss/black-dashboard/plugins/_plugin-perfect-scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/form.php" afterDir="false" />
+    <list default="true" id="52c9881b-754f-4fff-9d96-b827b31036f2" name="Default Changelist" comment="ok">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin.dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin.profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin.transaction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/top.up.client.account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin.block.navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/admin.nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/crypto.pay.out.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/super.block.navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/top.user.account.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user.bank.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/user.block.navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/black/dialog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/block.php" beforeDir="false" afterPath="$PROJECT_DIR$/block.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/global/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/global/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/global/session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/user.wallet.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user.wallet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/black/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/dashboard.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/black/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/black/side.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/side.menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/black/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/tables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/user.bank.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/user.bank.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -371,113 +36,80 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-206540134">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="js" value="2" />
-          <entry key="php" value="71" />
+          <entry key="php" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JavaScript" value="2" />
-          <entry key="PHP" value="71" />
+          <entry key="PHP" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
           <entry key="js" value="1" />
-          <entry key="php" value="10679" />
+          <entry key="php" value="15070" />
+          <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="41" />
+          <entry key="HTML" value="150" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="10638" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PHP" value="14920" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/template/black/side.menu.php">
+        <entry file="file://$PROJECT_DIR$/modules/user.block.navigation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="327">
+              <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/user.wallet.php">
+        <entry file="file://$PROJECT_DIR$/modules/top.user.account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="105" column="28" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="105" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/global/function.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/control/config.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/control/db.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sign.up.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="136">
+              <caret line="105" column="81" selection-start-line="105" selection-start-column="81" selection-end-line="105" selection-end-column="81" />
+              <folding>
+                <element signature="n#SearchUserByMobile#0;n#TopUserAccount#0;n#!!top" />
+                <element signature="n#SearchUserByAccount#0;n#TopUserAccount#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -485,8 +117,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/block.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="187">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/crypto.pay.out.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -499,9 +149,9 @@
       <find>log</find>
       <find>log out</find>
       <find>$user</find>
-      <find>&quot;</find>
       <find>form</find>
       <find>\&quot;</find>
+      <find>&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>template/argon/</replace>
@@ -522,31 +172,45 @@
         <option value="$PROJECT_DIR$/sign.up.php" />
         <option value="$PROJECT_DIR$/template/argon/sign.up.php" />
         <option value="$PROJECT_DIR$/control/db.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/template/argon/log.in.php" />
         <option value="$PROJECT_DIR$/template/black/assets/js/core/jquery.min.js" />
         <option value="$PROJECT_DIR$/user/pofile.php" />
-        <option value="$PROJECT_DIR$/template/black/form.php" />
         <option value="$PROJECT_DIR$/modules/user.pofile.php" />
         <option value="$PROJECT_DIR$/user/profile.php" />
         <option value="$PROJECT_DIR$/modules/users.profile.php" />
         <option value="$PROJECT_DIR$/template/black/assets/table.php" />
-        <option value="$PROJECT_DIR$/login.php" />
-        <option value="$PROJECT_DIR$/template/black/dashboard.php" />
         <option value="$PROJECT_DIR$/template/black/table.php" />
         <option value="$PROJECT_DIR$/control/config.php" />
-        <option value="$PROJECT_DIR$/global/session.php" />
         <option value="$PROJECT_DIR$/user/transaction.php" />
-        <option value="$PROJECT_DIR$/template/black/side.menu.php" />
-        <option value="$PROJECT_DIR$/user/user.bank.php" />
         <option value="$PROJECT_DIR$/modules/user.nav.php" />
         <option value="$PROJECT_DIR$/plugin/sms.php" />
+        <option value="$PROJECT_DIR$/setup.php" />
+        <option value="$PROJECT_DIR$/user/user.wallet.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/user/user.bank.php" />
+        <option value="$PROJECT_DIR$/modules/user.bank.php" />
+        <option value="$PROJECT_DIR$/administrator/admin.profile.php" />
+        <option value="$PROJECT_DIR$/administrator/admin.transaction.php" />
+        <option value="$PROJECT_DIR$/administrator/admin.dashboard.php" />
+        <option value="$PROJECT_DIR$/administrator/top.up.client.account.php" />
+        <option value="$PROJECT_DIR$/template/black/dialog.php" />
+        <option value="$PROJECT_DIR$/template/black/side.menu.php" />
+        <option value="$PROJECT_DIR$/modules/admin.block.nav.php" />
+        <option value="$PROJECT_DIR$/modules/user.block.navigation.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/modules/admin.nav.php" />
+        <option value="$PROJECT_DIR$/global/session.php" />
+        <option value="$PROJECT_DIR$/modules/admin.block.navigation.php" />
+        <option value="$PROJECT_DIR$/admin/top.up.client.account.php" />
+        <option value="$PROJECT_DIR$/global/function.php" />
+        <option value="$PROJECT_DIR$/template/black/dashboard.php" />
+        <option value="$PROJECT_DIR$/template/black/form.php" />
+        <option value="$PROJECT_DIR$/modules/user.wallet.php" />
+        <option value="$PROJECT_DIR$/template/black/tables.php" />
+        <option value="$PROJECT_DIR$/modules/top.user.account.php" />
         <option value="$PROJECT_DIR$/block.php" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/setup.php" />
-        <option value="$PROJECT_DIR$/modules/user.wallet.php" />
-        <option value="$PROJECT_DIR$/user/user.wallet.php" />
-        <option value="$PROJECT_DIR$/global/function.php" />
+        <option value="$PROJECT_DIR$/modules/crypto.pay.out.php" />
       </list>
     </option>
   </component>
@@ -559,17 +223,21 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="100" />
-    <option name="y" value="44" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-17" />
+    <option name="y" value="8" />
     <option name="width" value="1366" />
     <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -580,7 +248,7 @@
             <path>
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
@@ -590,13 +258,13 @@
             <path>
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="qrcode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,26 +307,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542979198448</updated>
-      <workItem from="1542979200454" duration="71387000" />
+      <workItem from="1542979200454" duration="103558000" />
+      <workItem from="1543235692073" duration="7079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71387000" />
+    <option name="totallyTimeSpent" value="110637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-17" y="8" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2565084" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Heroku" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -666,10 +329,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Heroku" order="9" />
+      <window_info anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.33838382" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32980332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -678,24 +348,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="ok" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/template/argon/assets/js/argon.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/portal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/argon/sign.up.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="184" column="62" selection-start-line="184" selection-start-column="62" selection-end-line="184" selection-end-column="62" />
-          <folding>
-            <element signature="e#15583#15589#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,9 +367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" selection-start-column="1" selection-end-column="1" />
-          <folding>
-            <element signature="e#1#85#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,87 +377,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/system.error.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/black/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2234">
-          <caret line="164" column="42" lean-forward="true" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/black/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/black/tables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1785">
-          <caret line="40" column="53" selection-start-line="40" selection-start-column="53" selection-end-line="40" selection-end-column="53" />
-          <folding>
-            <element signature="e#25568#25576#0#HTML" expanded="true" />
-            <element signature="e#25692#25700#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/user.nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/user.bank.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/transaction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="42" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="177" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/global/session.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/users.profile.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="25" column="84" lean-forward="true" selection-start-line="25" selection-start-column="84" selection-end-line="25" selection-end-column="84" />
         </state>
       </provider>
     </entry>
@@ -811,20 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="50" column="1" lean-forward="true" selection-start-line="9" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -849,31 +422,213 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/user.wallet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="123" column="25" lean-forward="true" selection-start-line="123" selection-start-column="25" selection-end-line="123" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/black/side.menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/user.wallet.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="105" column="28" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="105" selection-end-column="28" />
+        <state relative-caret-position="1649">
+          <caret line="111" column="43" lean-forward="true" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/administrator/admin/login.php" />
+    <entry file="file://$PROJECT_DIR$/user/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="177" column="1" lean-forward="true" selection-start-line="7" selection-end-line="177" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/transaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="27" column="24" lean-forward="true" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.transaction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="24" lean-forward="true" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user.nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="75" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/user.bank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="57" column="32" lean-forward="true" selection-end-line="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/black/dialog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+          <folding>
+            <element signature="e#1222#1229#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/super.block.navigation.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin.block.navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/global/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="70" column="37" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+        <state relative-caret-position="17">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/top.up.client.account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="248" column="32" lean-forward="true" selection-start-line="248" selection-start-column="32" selection-end-line="248" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/black/side.menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
+          <folding>
+            <element signature="n#user_menu#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/admin.nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/black/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="140" column="45" lean-forward="true" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/black/tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1496">
+          <caret line="131" column="75" selection-start-line="131" selection-start-column="75" selection-end-line="131" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/global/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/black/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="140" column="75" selection-start-line="140" selection-start-column="45" selection-end-line="140" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user.bank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="70" column="26" lean-forward="true" selection-start-line="70" selection-start-column="26" selection-end-line="70" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user.block.navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/user.wallet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="89" column="107" lean-forward="true" selection-start-line="87" selection-start-column="20" selection-end-line="89" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/top.user.account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="105" column="81" selection-start-line="105" selection-start-column="81" selection-end-line="105" selection-end-column="81" />
+          <folding>
+            <element signature="n#SearchUserByMobile#0;n#TopUserAccount#0;n#!!top" />
+            <element signature="n#SearchUserByAccount#0;n#TopUserAccount#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/crypto.pay.out.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
         </state>
       </provider>
     </entry>
