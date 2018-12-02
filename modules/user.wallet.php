@@ -171,7 +171,7 @@ class UserWallet {
 
                     $result->execute();
 
-                    header("location: index.php?u=user&ui=wallet&e=2&sms={$respone->code}");
+                    header("location: index.php?u={$_SESSION['portal']}&ui=wallet&e=2&sms={$respone->code}");
                 }else{
                     header("location: ?e=104");
                     exit(0);

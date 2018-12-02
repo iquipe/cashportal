@@ -37,19 +37,20 @@ if(!$_SERVER["REQUEST_METHOD"] ==="POST"){
             if(isset($login["token"])){
 
                 $token = $login["token"];
-                $userStatus = ((($login['statusID']*2)-16043572)/1024);
+
                 $account = $login["account"];
                 $userID = ((($login['userID']*2)-16043572)/1024);
                 $_SESSION['user-token'] = $token;
-
+                $_SESSION['user-status']= $login['statusID'];
+                $userStatus= $login['statusID'];
                 setcookie("user-token",$token,time()+(86400 * 30),"/");
                 setcookie("user-account",$account,time()+(86400 * 30),"/");
                 setcookie("user-track-id",$userID,time()+(86400 * 30),"/");
-                setcookie("user-status-id",$userStatus,time()+(86400 * 30),"/");
+                //setcookie("user-status-id",$userStatus,time()+(86400 * 30),"/");
 
                 switch ($userStatus){
                     case 3:
-                        header("location: index.php?u=super.admin&ui=dashboard&e=1");
+                        header("location: index.php?u=super&ui=dashboard&e=1");
                     break;
 
                     case 2:
@@ -87,14 +88,17 @@ if(!$_SERVER["REQUEST_METHOD"] ==="POST"){
             $account = date("Hyimsd");
             $token = $username."/".$password."/".$email;
             $token = md5(md5($token,true));
+            $token = "u-".rand(1000,9999)."".$token."".rand(99,10);
             $sql = "INSERT INTO `user` (`username`, `password`, `email`,`token`,`account`) VALUES (?,?,?,?,?)";
             $create = $conn->prepare($sql);
             $create->bind_param("sssss",$username,$password,$email,$token,$account);
 
             if ($create->execute() === TRUE){
+
                 $last_id = mysqli_insert_id($conn);
                 $userID = ((($last_id*2)-16043572)/1024);
                 $_SESSION['user-token'] =$token;
+                $_SESSION['user-status'] = "1";
                 setcookie("user-token",$token,time()+(86400 * 30),"/");
                 setcookie("user-account",$account,time()+(86400 * 30),"/");
                 setcookie("user-track-id",$userID,time()+(86400 * 30),"/");
@@ -104,6 +108,47 @@ if(!$_SERVER["REQUEST_METHOD"] ==="POST"){
             }else{
                 header("location: index.php?create-account=0");
             }
+        }
+
+    }elseif($_POST['submit'] === "Recovery"){
+        if (empty($_POST['email-recovery'])){
+            header("location: index.php?_route=recovery");
+        }else{
+
+            $sql = "SELECT * FROM get_user WHERE get_user.email = ?";
+            $check = $conn->prepare($sql);
+            $check->bind_param("s",$email);
+
+            $email = $_POST['email-recovery'];
+            $check->execute();
+            $result =$check->get_result();
+            if (mysqli_num_rows($result) > 0){
+                $user = mysqli_fetch_assoc($result);
+              echo  $username= $user['username'];
+                $password = $user['password'];
+                $user = date('YmdHis')."/".$username."/".$password;
+                $token = md5(md5($user,true));
+                setcookie("token", $token , time() + (60 * 5));
+
+                header("location: index.php?u={$token}&e=1");
+            }else{
+                $token = md5(date("YmdHis"));
+                header("location: index.php?u={$token}&e=107");
+            }
+
+        }
+
+    }elseif ($_POST['submit'] === "Change"){
+        if ($_COOKIE['token'] === $_GET['token']){
+
+            $sql = "UPDATE `user` SET `password`='$password' WHERE (`userID`='11')";
+            $check = $conn->prepare($sql);
+            $check->bind_param("s",$password);
+
+            $password = $_POST['password'];
+            $check->execute();
+
+            //setcookie("token", $token , time() - (60 * 5));
         }
 
     }

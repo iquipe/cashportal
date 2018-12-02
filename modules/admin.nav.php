@@ -39,7 +39,7 @@ if (!isset($_COOKIE['user-token'])){
                 case"top.up-client";
                     $title ="Account Number: ". $_COOKIE['user-account'];
                     $content = "admin/top.up.client.account.php";
-                    include_once $template->form;
+                    include_once $template->table;
                     break;
                 break;
 

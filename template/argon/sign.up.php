@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>Argon Design System - Free Design System for Bootstrap 4</title>
+    <title><?php echo APP_TITLE;?></title>
     <!-- Favicon -->
     <link href="template/argon/assets/img/brand/favicon.png" rel="icon" type="image/png">
     <!-- Fonts -->
@@ -95,13 +95,10 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                             <i class="ni ni-collection d-lg-none"></i>
-                            <span class="nav-link-inner--text">Examples</span>
+                            <span class="nav-link-inner--text"><?php echo $template->lable['start'];?></span>
                         </a>
                         <div class="dropdown-menu">
-                            <a href="../examples/landing.html" class="dropdown-item">Landing</a>
-                            <a href="../examples/profile.html" class="dropdown-item">Profile</a>
-                            <a href="../examples/login.html" class="dropdown-item">Login</a>
-                            <a href="../examples/register.html" class="dropdown-item">Register</a>
+                            <?php echo start_menu();?>
                         </div>
                     </li>
                 </ul>
@@ -186,7 +183,7 @@
                                 <div class="form-group">
                                     <div class="input-group input-group-alternative mb-3">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="ni ni-hat-3"></i></span>
+                                            <span class="input-group-text"><i class="ni ni-single-02"></i></span>
                                         </div>
                                         <input class="form-control" name="username" placeholder="Username" type="text">
                                     </div>
@@ -271,7 +268,7 @@
                         <a href="https://www.creative-tim.com" class="nav-link" target="_blank">Creative Tim</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://www.creative-tim.com/presentation" class="nav-link" target="_blank">About Us</a>
+                        <a href="?_route=about-us" class="nav-link" target="_blank">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="http://blog.creative-tim.com" class="nav-link" target="_blank">Blog</a>

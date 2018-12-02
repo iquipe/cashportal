@@ -16,6 +16,27 @@ class UserBank {
 
     }
 
+    function add_bank_detail($conn){
+
+        $userID = $GLOBALS['userID'];
+        $country = $_POST['country'];
+        $bank = $_POST['bank-name'];
+        $acctNo = $_POST['account-number'];
+        $acctName = $_POST['account-name'];
+        $swift = $_POST['swift'];
+
+        $sql = "INSERT INTO `bank` (`userID`, `county`, `bank`, `acctNumber`, `acctName`, `swift`) VALUES (?,?,?,?,?,?)";
+        $result = $conn->prepare($sql);
+        $result->bind_param("ssssss",$userID,$country,$bank,$acctNo,$acctName,$swift);
+
+        if ($result->execute() == TRUE){
+            header("location: index.php?u={$_SESSION['portal']}&ui=settings&e=2");
+        }else{
+            header("location: index.php?u={$_SESSION['portal']}&ui=settings&e=109");
+        }
+
+    }
+
     public function transfer_to_wallet_cash($conn){
 
         $respone = new stdClass();
@@ -106,7 +127,7 @@ class UserBank {
                         echo $respone->code = "1701";
                         //$respone->to = $request->to;
                         //$respone->from = $request->from;
-                        header("?u=user&ui=wallet&e=2&sms=1701");
+                        header("?u={$_SESSION['portal']}&ui=wallet&e=2&sms=1701");
                         //bill the sender with charger
                     }else{
 
@@ -114,7 +135,7 @@ class UserBank {
                         echo $respone->code = "1702";
                         //$respone->to = $request->to;
                         //$respone->from = $request->from;
-                        header("?u=user&ui=wallet&e=2&sms=1702");
+                        header("?u={$_SESSION['portal']}&ui=wallet&e=2&sms=1702");
                     }
 
                 }

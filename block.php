@@ -12,6 +12,9 @@ include_once "global/session.php";
 include_once "plugin/qrcode/qrlib.php";
 include_once "modules/users.profile.php";
 include_once "modules/user.wallet.php";
+include_once "modules/user.bank.php";
+include_once "modules/cryptocurrency.php";
+include_once "modules/mobile.php";
 
 if (!isset($_COOKIE['user-token'])){
     echo "session not found";
@@ -23,13 +26,13 @@ if (!isset($_COOKIE['user-token'])){
     if ($cookie !== $token){
         echo" invalid session";
     }else{
-        if(!isset($_POST['submit'])){
+        if(!isset($_REQUEST['submit'])){
             echo "invalid ui session";
         }else{
-            $action = $_POST['submit'];
-            if ($userStatus ==3){
+                $action = $_REQUEST['submit'];
+            if ($_SESSION['user-status'] ==3){
                 require_once "modules/super.block.navigation.php";
-            }elseif ($userStatus == 2){
+            }elseif ($_SESSION['user-status'] == 2){
                 require_once "modules/admin.block.navigation.php";
             }else{
                 require_once "modules/user.block.navigation.php";

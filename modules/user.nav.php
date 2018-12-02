@@ -11,6 +11,7 @@ include_once "global/session.php";
 include_once "global/function.php";
 
 
+
 if (!isset($_COOKIE['user-token'])){
     echo "session not found";
 }else{
@@ -32,8 +33,13 @@ if (!isset($_COOKIE['user-token'])){
                     logout();
                 break;
 
-                case "dashboard";
+                case"settings";
+                    $title ="Account Number: ". $_COOKIE['user-account'];
+                    $content = "user/settings.php";
+                    include_once $template->table;
+                break;
 
+                case "dashboard";
                     include_once $template->dashboard;
                 break;
 
@@ -63,14 +69,15 @@ if (!isset($_COOKIE['user-token'])){
 
                 case"m.checkout";
                     $title = "Mobile Checkout";
-
+                   // include_once "plugin/qrcode/qrlib.php";
+                    $content = "modules/crypto.pay.out.php";
+                    //$content = "user/m.checkout.php";
+                    include_once $template->table;
                 break;
-
 
                 default;
                     echo "page not found";
             }
-
         }
     }
 }

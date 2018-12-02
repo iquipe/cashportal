@@ -16,16 +16,31 @@ switch ($action){
         UserProfile::update_profile($conn);
         break;
 
+    case "add-mobile";
+        Mobile::add_mobile($conn);
+    break;
+
     case"send-cash-wallet";
         UserWallet::send_cash($conn);
         break;
+
+    case"add-bank";
+         UserBank::add_bank_detail($conn);
+    break;
 
     case "cash-bank";
         UserBank::transfer_to_wallet_cash($conn);
         break;
 
-    case"search-account";
+    case"add-wallet";
+        CryptoCurrency::add_address($conn);
+        break;
 
-    default;
+    case"remove-wallet";
+        CryptoCurrency::remove_address($conn);
+        break;
+
+
+    default:
         echo "page not found";
 }

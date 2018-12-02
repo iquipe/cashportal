@@ -14,7 +14,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Start your development with a Design System for Bootstrap 4.">
     <meta name="author" content="Creative Tim">
-    <title>Argon Design System - Free Design System for Bootstrap 4</title>
+    <title><?php echo APP_TITLE;?></title>
     <!-- Favicon -->
     <link href="template/argon/assets/img/brand/favicon.png" rel="icon" type="image/png">
     <!-- Fonts -->
@@ -95,13 +95,10 @@
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link" data-toggle="dropdown" href="#" role="button">
                             <i class="ni ni-collection d-lg-none"></i>
-                            <span class="nav-link-inner--text">Examples</span>
+                            <span class="nav-link-inner--text"><?php echo $template->lable['start'];?></span>
                         </a>
                         <div class="dropdown-menu">
-                            <a href="../examples/landing.html" class="dropdown-item">Landing</a>
-                            <a href="../examples/profile.html" class="dropdown-item">Profile</a>
-                            <a href="../examples/login.html" class="dropdown-item">Login</a>
-                            <a href="../examples/register.html" class="dropdown-item">Register</a>
+                            <?php echo start_menu();?>
                         </div>
                     </li>
                 </ul>
@@ -167,7 +164,7 @@
                                 <div class="form-group mb-3">
                                     <div class="input-group input-group-alternative">
                                         <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="ni ni-user-run"></i></span>
+                                            <span class="input-group-text"><i class="ni ni-single-02"></i></span>
                                         </div>
                                         <input name="username" class="form-control" placeholder="Username" type="text">
                                     </div>
@@ -194,7 +191,7 @@
                     </div>
                     <div class="row mt-3">
                         <div class="col-6">
-                            <a href="?_route=recover" class="text-light">
+                            <a href="?_route=recovery" class="text-light">
                                 <small>Forgot password?</small>
                             </a>
                         </div>
@@ -236,7 +233,7 @@
             <div class="col-md-6">
                 <div class="copyright">
                     &copy; 2018
-                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>.
+                    <a href="<?php echo COPYRIGHT_URL;?>" target="_blank"><?php echo COPYRIGHT;?></a>.
                 </div>
             </div>
             <div class="col-md-6">

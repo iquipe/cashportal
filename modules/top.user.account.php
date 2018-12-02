@@ -22,7 +22,7 @@ class TopUserAccount{
             $_SESSION['credit'] = $m['cr'];
             $_SESSION['balance'] = $m['bal'];
 
-            header("location: index.php?u=admin&ui=top.up-client&e=1");
+            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=1");
         }else{
             $_SESSION['transferID'] = "";
             $_SESSION['account'] = "";
@@ -31,7 +31,7 @@ class TopUserAccount{
             $_SESSION['debit'] = "";
             $_SESSION['credit'] ="";
             $_SESSION['balance'] = "";
-            header("location: index.php?u=admin&ui=top.up-client&e=0");
+            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
         }
     }
 
@@ -49,7 +49,7 @@ class TopUserAccount{
             $_SESSION['credit'] = $m['cr'];
             $_SESSION['balance'] = $m['bal'];
 
-            header("location: index.php?u=admin&ui=top.up-client&e=1");
+            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=1");
         }else{
             $_SESSION['transferID'] = "";
             $_SESSION['account'] = "";
@@ -58,7 +58,7 @@ class TopUserAccount{
             $_SESSION['debit'] = "";
             $_SESSION['credit'] ="";
             $_SESSION['balance'] = "";
-            header("location: index.php?u=admin&ui=top.up-client&e=0");
+            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
         }
     }
 
@@ -73,7 +73,7 @@ class TopUserAccount{
         $acct_type = "1";
 
         if ($transferID == $userID){
-            header("location: index.php?u=admin&ui=top.up-client&e=106");
+            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=106");
             exit(0);
         }else{
 
@@ -112,21 +112,21 @@ class TopUserAccount{
                             $result = $conn->prepare($sql);
                             $result->bind_param("sssssss", $userID, $now, $date, $description, $refer,$acct_type, $amount);
                             if ($result->execute() == TRUE) {
-                                header("location: index.php?u=admin&ui=top.up-client&e=1");
+                                header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=1");
                             } else {
-                                header("location: index.php?u=admin&ui=top.up-client&e=0");
+                                header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
                             }
                         }else{
-                            header("location: index.php?u=admin&ui=top.up-client&e=0");
+                            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
                         }
                     }else{
-                        header("location: index.php?u=admin&ui=top.up-client&e=104");
+                        header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=104");
                     }
                 }else{
-                    header("location: index.php?u=admin&ui=top.up-client&e=104");
+                    header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=104");
                 }
             }else{
-                header("location: index.php?u=admin&ui=top.up-client&e=0");
+                header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
             }
         }
     }

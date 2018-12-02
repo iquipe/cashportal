@@ -1,25 +1,11 @@
+<?php
+include_once "top.menu.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="template/black/assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="template/black/assets/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>
-        Black Dashboard by Creative Tim
-    </title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <!-- Nucleo Icons -->
-    <link href="template/black/assets/css/nucleo-icons.css" rel="stylesheet" />
-    <!-- CSS Files -->
-    <link href="template/black/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="template/black/assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="template/black/assets/demo/demo.css" rel="stylesheet" />
+    <?php echo dashboard();?>
 </head>
 
 <body class=" ">
@@ -93,27 +79,13 @@
                                 </p>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Mike John responded to your email</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">You have 5 more tasks</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Your friend Michael is in town</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Another notification</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Another one</a>
-                                </li>
+                                <?php echo top_menu_notification($conn);?>
                             </ul>
                         </li>
                         <li class="dropdown nav-item">
                             <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
                                 <div class="photo">
-                                    <img src="../assets/img/anime3.png">
+                                    <img src="template/black/assets/img/anime3.png">
                                 </div>
                                 <b class="caret d-none d-lg-block d-xl-block"></b>
                                 <p class="d-lg-none">
@@ -121,16 +93,7 @@
                                 </p>
                             </a>
                             <ul class="dropdown-menu dropdown-navbar">
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Profile</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Settings</a>
-                                </li>
-                                <div class="dropdown-divider"></div>
-                                <li class="nav-link">
-                                    <a href="index.php?u=user&ui=logout&e=0" class="nav-item dropdown-item">Log out</a>
-                                </li>
+                                <?php echo top_menu_profile();?>
                             </ul>
                         </li>
                         <li class="separator d-lg-none"></li>

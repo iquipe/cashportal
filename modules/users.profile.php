@@ -31,7 +31,7 @@ class UserProfile{
         $update->bind_param("sssssssssss",$username,$password,$email,$f_name,$l_name,$mobile,$country,$city,$address,$about,$postal);
 
         if ($update->execute() == TRUE){
-            header("location: index.php?u=user&ui=profile&e=2");
+            header("location: index.php?u={$_SESSION['portal']}&ui=profile&e=2");
         }else{
             header("location: index.php?e=1");
         }
