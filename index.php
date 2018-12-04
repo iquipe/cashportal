@@ -57,7 +57,6 @@ if (file_exists("control/config.php")){
         //link to the login page
        include_once "template/argon/log.in.php";
     }
-
 }else{
     echo"server over load";
 }
