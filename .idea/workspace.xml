@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c9881b-754f-4fff-9d96-b827b31036f2" name="Default Changelist" comment="ok">
-      <change afterPath="$PROJECT_DIR$/global/template.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global/virtual.bank.function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/cryptocurrency.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/mobile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/v_bank/super.block.navigation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/v_bank/super.nav.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/recover.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/about.us.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/global.account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/new.password.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/argon/password.recovery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/black/top.menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/bank.account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/m.checkout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/settings.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbank/admin.dashboard.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbank/admin.profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbank/admin.transaction.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbank/top.up.client.account.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vbank/user.account.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/block.php" beforeDir="false" afterPath="$PROJECT_DIR$/block.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/global/function.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/global/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/admin.nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/admin.nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/crypto.pay.out.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/crypto.pay.out.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/top.user.account.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/top.user.account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user.bank.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user.bank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user.block.navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user.block.navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user.nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user.nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/user.wallet.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/user.wallet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/users.profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/modules/users.profile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qr/myimage.png" beforeDir="false" afterPath="$PROJECT_DIR$/qr/myimage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.php" beforeDir="false" afterPath="$PROJECT_DIR$/setup.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/argon/log.in.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/argon/log.in.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/argon/sign.up.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/argon/sign.up.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/black/assets/demo/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/assets/demo/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/black/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/black/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/black/side.menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/side.menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/black/tables.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/tables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,13 +28,14 @@
     <session id="-206540134">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.129" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.40" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -125,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -245,6 +200,11 @@
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cashportal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cashportal" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,17 +257,18 @@
       <workItem from="1543235692073" duration="30417000" />
       <workItem from="1543468808960" duration="13644000" />
       <workItem from="1543551647684" duration="10600000" />
-      <workItem from="1543567897863" duration="31495000" />
+      <workItem from="1543567897863" duration="34133000" />
+      <workItem from="1543900609168" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189714000" />
+    <option name="totallyTimeSpent" value="192418000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27155825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -451,21 +412,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/black/assets/js/plugins/chartjs.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/template/black/assets/js/black-dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2209">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-2209" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/black/assets/demo/demo.css">
@@ -548,13 +499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="467">
           <caret line="721" lean-forward="true" selection-start-line="721" selection-end-line="721" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#1;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#1;n#div#0;n#section#4;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#42269#42275#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -735,16 +679,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="n#add_mobile#0;n#Mobile#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="19" column="53" lean-forward="true" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
         </state>
       </provider>
     </entry>
