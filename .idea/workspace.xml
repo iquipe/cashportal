@@ -63,7 +63,7 @@
           <entry key="dummy" value="14" />
           <entry key="html" value="48" />
           <entry key="js" value="10" />
-          <entry key="md" value="205" />
+          <entry key="md" value="218" />
           <entry key="php" value="22807" />
           <entry key="txt" value="5" />
         </counts>
@@ -72,7 +72,7 @@
         <counts>
           <entry key="HTML" value="257" />
           <entry key="JavaScript" value="10" />
-          <entry key="Markdown" value="205" />
+          <entry key="Markdown" value="218" />
           <entry key="PHP" value="22598" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
@@ -94,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="170">
-                <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <first_editor relative-caret-position="102">
+                <caret line="6" column="218" selection-start-line="6" selection-start-column="218" selection-end-line="6" selection-end-column="218" />
               </first_editor>
               <second_editor />
             </state>
@@ -270,7 +270,7 @@
       <workItem from="1543551647684" duration="10600000" />
       <workItem from="1543567897863" duration="34133000" />
       <workItem from="1543900609168" duration="66000" />
-      <workItem from="1543916513602" duration="1700000" />
+      <workItem from="1543916513602" duration="2111000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1543916722791</created>
@@ -283,7 +283,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194118000" />
+    <option name="totallyTimeSpent" value="194529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -706,8 +706,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="170">
-            <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <first_editor relative-caret-position="102">
+            <caret line="6" column="218" selection-start-line="6" selection-start-column="218" selection-end-line="6" selection-end-column="218" />
           </first_editor>
           <second_editor />
         </state>
