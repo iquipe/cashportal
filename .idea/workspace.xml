@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c9881b-754f-4fff-9d96-b827b31036f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,7 @@
           <entry key="css" value="1" />
           <entry key="html" value="1" />
           <entry key="js" value="5" />
+          <entry key="md" value="1" />
           <entry key="php" value="279" />
           <entry key="png" value="5" />
         </counts>
@@ -53,6 +54,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="5" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="279" />
         </counts>
       </usages-collector>
@@ -61,6 +63,7 @@
           <entry key="dummy" value="14" />
           <entry key="html" value="48" />
           <entry key="js" value="10" />
+          <entry key="md" value="185" />
           <entry key="php" value="22807" />
           <entry key="txt" value="5" />
         </counts>
@@ -69,6 +72,7 @@
         <counts>
           <entry key="HTML" value="257" />
           <entry key="JavaScript" value="10" />
+          <entry key="Markdown" value="185" />
           <entry key="PHP" value="22598" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
@@ -77,11 +81,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="429">
               <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="204">
+                <caret line="12" column="565" selection-start-line="12" selection-start-column="565" selection-end-line="12" selection-end-column="565" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -115,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/administrator/admin.profile.php" />
         <option value="$PROJECT_DIR$/administrator/admin.transaction.php" />
         <option value="$PROJECT_DIR$/administrator/admin.dashboard.php" />
         <option value="$PROJECT_DIR$/administrator/top.up.client.account.php" />
@@ -166,6 +181,7 @@
         <option value="$PROJECT_DIR$/modules/user.wallet.php" />
         <option value="$PROJECT_DIR$/modules/users.profile.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -199,11 +215,6 @@
             <path>
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +270,7 @@
       <workItem from="1543551647684" duration="10600000" />
       <workItem from="1543567897863" duration="34133000" />
       <workItem from="1543900609168" duration="66000" />
-      <workItem from="1543916513602" duration="479000" />
+      <workItem from="1543916513602" duration="1589000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1543916722791</created>
@@ -272,12 +283,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192660000" />
+    <option name="totallyTimeSpent" value="194007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2753404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -290,7 +302,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Heroku" order="9" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="File Transfer" order="10" visible="true" weight="0.33442622" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
@@ -385,13 +397,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="177" column="1" lean-forward="true" selection-end-line="177" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/crypto.pay.out.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -693,8 +698,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="429">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="204">
+            <caret line="12" column="565" selection-start-line="12" selection-start-column="565" selection-end-line="12" selection-end-column="565" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
