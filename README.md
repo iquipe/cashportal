@@ -1,4 +1,4 @@
-# cashportal
+# Cash Portal
 
 Cash Portal is a revolutionary digital financial system.  It has been designed and developed behind a series of computer algorithms that make it the safest and most durable digital ledger ever created.
 
