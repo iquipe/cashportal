@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c9881b-754f-4fff-9d96-b827b31036f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/db.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,8 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.54" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -44,7 +45,7 @@
           <entry key="html" value="1" />
           <entry key="js" value="5" />
           <entry key="md" value="1" />
-          <entry key="php" value="279" />
+          <entry key="php" value="281" />
           <entry key="png" value="5" />
         </counts>
       </usages-collector>
@@ -55,7 +56,7 @@
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="5" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="279" />
+          <entry key="PHP" value="281" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -64,7 +65,7 @@
           <entry key="html" value="48" />
           <entry key="js" value="10" />
           <entry key="md" value="222" />
-          <entry key="php" value="22807" />
+          <entry key="php" value="22848" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -73,7 +74,7 @@
           <entry key="HTML" value="257" />
           <entry key="JavaScript" value="10" />
           <entry key="Markdown" value="222" />
-          <entry key="PHP" value="22598" />
+          <entry key="PHP" value="22639" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -84,13 +85,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="935">
               <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -98,6 +99,24 @@
                 <caret column="8" selection-start-column="8" selection-end-column="8" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/control/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -131,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/administrator/admin.transaction.php" />
         <option value="$PROJECT_DIR$/administrator/admin.dashboard.php" />
         <option value="$PROJECT_DIR$/administrator/top.up.client.account.php" />
         <option value="$PROJECT_DIR$/template/black/dialog.php" />
@@ -182,6 +200,7 @@
         <option value="$PROJECT_DIR$/modules/users.profile.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/control/db.php" />
       </list>
     </option>
   </component>
@@ -208,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,10 +234,16 @@
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cashportal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cashportal" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,6 +295,7 @@
       <workItem from="1543567897863" duration="34133000" />
       <workItem from="1543900609168" duration="66000" />
       <workItem from="1543916513602" duration="2207000" />
+      <workItem from="1544081239594" duration="352000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1543916722791</created>
@@ -283,13 +308,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194625000" />
+    <option name="totallyTimeSpent" value="194977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2753404" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2753404" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -438,9 +463,6 @@
         <state relative-caret-position="-594" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/control/db.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/black/assets/demo/demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1221">
@@ -499,13 +521,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/control/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -698,7 +713,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="935">
           <caret line="60" column="5" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
         </state>
       </provider>
@@ -710,6 +725,20 @@
             <caret column="8" selection-start-column="8" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
         </state>
       </provider>
     </entry>
