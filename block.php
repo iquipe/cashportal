@@ -31,11 +31,11 @@ if (!isset($_COOKIE['user-token'])){
         }else{
                 $action = $_REQUEST['submit'];
             if ($_SESSION['user-status'] ==3){
-                require_once "modules/super.block.navigation.php";
+                require_once "modules/v_admin/super.block.navigation.php";
             }elseif ($_SESSION['user-status'] == 2){
-                require_once "modules/admin.block.navigation.php";
+                require_once "modules/v_merchant/admin.block.navigation.php";
             }else{
-                require_once "modules/user.block.navigation.php";
+                require_once "modules/v_user/user.block.navigation.php";
             }
         }
     }

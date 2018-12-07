@@ -39,16 +39,16 @@ if (file_exists("control/config.php")){
             //load the user-interface navigation
             $_SESSION['portal']='user';
             include_once "modules/system.error.php";
-            include_once "modules/user.nav.php";
+            include_once "modules/v_user/user.nav.php";
         }elseif ($_REQUEST['u'] === "admin"){
             //load the admin-interface navigation
             $_SESSION['portal']='admin';
             include_once "modules/system.error.php";
-            include_once "modules/admin.nav.php";
+            include_once "modules/v_merchant/merchant.nav.php";
         }elseif ($_REQUEST['u'] === "super"){
             $_SESSION['portal']='super';
             include_once "modules/system.error.php";
-            include_once "modules/v_bank/super.nav.php";
+            include_once "modules/v_admin/super.nav.php";
         }else{
             //link to the login page
             include_once "template/argon/log.in.php";

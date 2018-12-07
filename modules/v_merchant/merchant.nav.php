@@ -6,10 +6,11 @@
  * Time: 3:04 PM
  */
 
+
 include_once "control/db.php";
 include_once "global/session.php";
 include_once "global/function.php";
-include_once "global/virtual.bank.function.php";
+
 
 if (!isset($_COOKIE['user-token'])){
     echo "session not found";
@@ -32,12 +33,12 @@ if (!isset($_COOKIE['user-token'])){
                     break;
 
                 case "dashboard";
-                    include_once "admin/admin.dashboard.php";
+                    include_once "merchant/merchant.dashboard.php";
                     break;
 
                 case"top.up-client";
                     $title ="Account Number: ". $_COOKIE['user-account'];
-                    $content = "admin/top.up.client.account.php";
+                    $content = "merchant/top.up.client.account.php";
                     include_once $template->table;
                     break;
                 break;
@@ -49,14 +50,8 @@ if (!isset($_COOKIE['user-token'])){
                     break;
 
                 case"transaction";
-                $title ="Account Number: ". $_COOKIE['user-account'];
-                $content = "user/transaction.php";
-                include_once $template->table;
-                break;
-
-                case"account";
                     $title ="Account Number: ". $_COOKIE['user-account'];
-                    $content = "vbank/user.account.php";
+                    $content = "user/transaction.php";
                     include_once $template->table;
                     break;
 

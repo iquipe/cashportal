@@ -99,7 +99,7 @@ demo = {
           fill: true,
           backgroundColor: gradientFill,
           borderWidth: 2,
-          data: [<?php chart($conn);?>]
+          data: [1,2,3,4,5,6,7,8,9,0,2]
         }]
       },
       options: gradientChartOptionsConfiguration

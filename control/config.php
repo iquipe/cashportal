@@ -6,8 +6,13 @@
  * Time: 2:41 PM
  */
 
-include_once "template/black/header.php";
+
 include_once "template/argon/function.php";
+
+// user, merchant, bank
+include_once "template/black/header.php";
+include_once "template/black/top.menu.php";
+include_once "template/black/side.menu.php";
 
 date_default_timezone_set('UTC');
 

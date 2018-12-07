@@ -6,15 +6,15 @@
  * Time: 5:27 PM
  */
 
-//$server = "localhost";
-//$username = "root";
-//$password = "";
-//$database = "cash_portal";
+$server = "localhost";
+$username = "root";
+$password = "";
+$database = "cash_portal";
 
-$server = "iquipe.heliohost.org";
-$username = "iquipe_cashporta";
-$password = "@passWD8282";
-$database = "iquipe_cashportal";
+//$server = "iquipe.heliohost.org";
+//$username = "iquipe_cashporta";
+//$password = "@passWD8282";
+//$database = "iquipe_cashportal";
 $port = "3306";
 // Create connection
 $conn = new mysqli($server, $username, $password, $database);

@@ -2,11 +2,11 @@
 /**
  * Created by PhpStorm.
  * User: Andrew Quaye
- * Date: 24/11/2018
- * Time: 8:27 AM
+ * Date: 06/12/2018
+ * Time: 3:35 PM
  */
-include_once "top.menu.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,7 +46,7 @@ include_once "top.menu.php";
                             <span class="navbar-toggler-bar bar3"></span>
                         </button>
                     </div>
-                    <a class="navbar-brand" href="#pablo"><?php echo $title;?></a>
+                    <a class="navbar-brand" href="#pablo">Dashboard</a>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -85,7 +85,21 @@ include_once "top.menu.php";
                                 </p>
                             </a>
                             <ul class="dropdown-menu dropdown-menu-right dropdown-navbar">
-                                <?php echo top_menu_notification($conn)?>
+                                <li class="nav-link">
+                                    <a href="#" class="nav-item dropdown-item">Mike John responded to your email</a>
+                                </li>
+                                <li class="nav-link">
+                                    <a href="#" class="nav-item dropdown-item">You have 5 more tasks</a>
+                                </li>
+                                <li class="nav-link">
+                                    <a href="#" class="nav-item dropdown-item">Your friend Michael is in town</a>
+                                </li>
+                                <li class="nav-link">
+                                    <a href="#" class="nav-item dropdown-item">Another notification</a>
+                                </li>
+                                <li class="nav-link">
+                                    <a href="#" class="nav-item dropdown-item">Another one</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="dropdown nav-item">
@@ -124,40 +138,169 @@ include_once "top.menu.php";
         <!-- End Navbar -->
         <div class="content">
             <div class="row">
-                <?php include_once $content;?>
+                <div class="col-12">
+                    <div class="card card-chart">
+                        <div class="card-header ">
+                            <div class="row">
+                                <div class="col-sm-6 text-left">
+                                    <h5 class="card-category">Total Shipments</h5>
+                                    <h2 class="card-title">Performance</h2>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
+                                        <label class="btn btn-sm btn-primary btn-simple active" id="0">
+                                            <input type="radio" name="options" autocomplete="off" checked> Accounts
+                                        </label>
+                                        <label class="btn btn-sm btn-primary btn-simple " id="1">
+                                            <input type="radio" name="options" autocomplete="off"> Purchases
+                                        </label>
+                                        <label class="btn btn-sm btn-primary btn-simple " id="2">
+                                            <input type="radio" name="options" autocomplete="off"> Sessions
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="chart-area">
+                                <canvas id="chartBig1"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card card-chart">
+                        <div class="card-header ">
+                            <h5 class="card-category">Total Shipments</h5>
+                            <h3 class="card-title"><i class="tim-icons icon-bell-55 text-primary "></i> 763,215</h3>
+                        </div>
+                        <div class="card-body ">
+                            <div class="chart-area">
+                                <canvas id="chartLinePurple"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card card-chart">
+                        <div class="card-header ">
+                            <h5 class="card-category">Daily Sales</h5>
+                            <h3 class="card-title"><i class="tim-icons icon-delivery-fast text-info "></i> 3,500€</h3>
+                        </div>
+                        <div class="card-body ">
+                            <div class="chart-area">
+                                <canvas id="CountryChart"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card card-chart">
+                        <div class="card-header ">
+                            <h5 class="card-category">Completed Tasks</h5>
+                            <h3 class="card-title"><i class="tim-icons icon-send text-success "></i> 12,100K</h3>
+                        </div>
+                        <div class="card-body ">
+                            <div class="chart-area">
+                                <canvas id="chartLineGreen"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="card card-tasks">
+                        <div class="card-header ">
+                            <h6 class="title d-inline">Tasks(5)</h6>
+                            <p class="card-category d-inline">today</p>
+                            <div class="dropdown">
+                                <button type="button" class="btn btn-link dropdown-toggle btn-icon" data-toggle="dropdown">
+                                    <i class="tim-icons icon-settings-gear-63"></i>
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="#pablo">Action</a>
+                                    <a class="dropdown-item" href="#pablo">Another action</a>
+                                    <a class="dropdown-item" href="#pablo">Something else</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body ">
+                            <div class="table-full-width table-responsive">
+                                <table class="table">
+                                    <tbody>
+                                    <?php get_information($conn);?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="card ">
+                        <div class="card-header">
+                            <h4 class="card-title"> Global Account</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table tablesorter " id="">
+                                    <thead class=" text-primary">
+                                    <th>
+                                        Date
+                                    </th>
+                                    <th>
+                                        Account
+                                    </th>
+                                    <th>Ref.No#</th>
+                                    <th class="text-right">
+                                        Debit
+                                    </th>
+                                    <th class="text-right">
+                                        Credit
+                                    </th>
+                                    </thead>
+                                    <tbody>
+                                    <?php general_ledger($conn);?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="https://www.creative-tim.com">
+                                Creative Tim
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://presentation.creative-tim.com">
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a href="index.php?u=user&ui=logout&e=1">
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="copyright float-right">
+                    ©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> made with <i class="tim-icons icon-heart-2"></i> by
+                    <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
+                </div>
+        </footer>
     </div>
-    <footer class="footer">
-        <div class="container-fluid">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="https://www.creative-tim.com">
-                            Creative Tim
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://presentation.creative-tim.com">
-                            About Us
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://blog.creative-tim.com">
-                            Blog
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="copyright float-right">
-                ©
-                <script>
-                    document.write(new Date().getFullYear())
-                </script> made with <i class="tim-icons icon-heart-2"></i> by
-                <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> for a better web.
-            </div>
-    </footer>
-</div>
 </div>
 <div class="fixed-plugin">
     <div class="dropdown show-dropdown">
@@ -325,6 +468,14 @@ include_once "top.menu.php";
         });
     });
 </script>
+<script>
+    $(document).ready(function() {
+        // Javascript method's body can be found in assets/js/demos.js
+        demo.initDashboardPageCharts();
+
+    });
+</script>
 </body>
 
 </html>
+

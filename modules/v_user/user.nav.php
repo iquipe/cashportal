@@ -40,7 +40,7 @@ if (!isset($_COOKIE['user-token'])){
                 break;
 
                 case "dashboard";
-                    include_once $template->dashboard;
+                    include_once "user/user.dashboard.php";
                 break;
 
                 case"profile";

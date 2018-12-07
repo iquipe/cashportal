@@ -6,8 +6,6 @@
  * Time: 10:06 AM
  */
 
-
-
 function top_menu_profile(){
 
     return"
@@ -43,7 +41,4 @@ function top_menu_notification($conn){
             ";
         }
     }
-
-
-
 }

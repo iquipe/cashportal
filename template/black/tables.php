@@ -24,7 +24,7 @@ include_once "top.menu.php";
                 </a>
             </div>
             <ul class="nav">
-                <?php include_once "side.menu.php";?>
+                <?php side_menu();?>
             </ul>
         </div>
     </div>

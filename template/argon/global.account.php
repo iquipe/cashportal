@@ -6,9 +6,17 @@
  * Time: 1:26 AM
  */
 
+function total_merchant($conn){
+
+}
+
+function total_user($conn){
+
+}
+
 function account($conn){
 
-    $sql="SELECT * FROM `get_general_ledger` LIMIT 0, 1000";
+    $sql="SELECT * FROM `get_general_ledger` LIMIT 0, 30";
     $result = mysqli_query($conn, $sql);
     if (mysqli_num_rows($result) > 0) {
         // output data of each row

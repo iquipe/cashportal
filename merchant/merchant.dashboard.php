@@ -2,34 +2,16 @@
 /**
  * Created by PhpStorm.
  * User: Andrew Quaye
- * Date: 25/11/2018
- * Time: 4:24 PM
+ * Date: 06/12/2018
+ * Time: 3:35 PM
  */
-
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <link rel="apple-touch-icon" sizes="76x76" href="template/black/assets/img/apple-icon.png">
-    <link rel="icon" type="image/png" href="template/black/assets/img/favicon.png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>
-        Black Dashboard by Creative Tim
-    </title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-    <!--     Fonts and icons     -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-    <!-- Nucleo Icons -->
-    <link href="template/black/assets/css/nucleo-icons.css" rel="stylesheet" />
-    <!-- CSS Files -->
-    <link href="template/black/assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="template/black/assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="template/black/assets/demo/demo.css" rel="stylesheet" />
-
+    <?php echo dashboard();?>
 </head>
 
 <body class=" ">
@@ -41,14 +23,14 @@
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-                    Cash
+                    CT
                 </a>
                 <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-                    Portal
+                    Creative Tim
                 </a>
             </div>
             <ul class="nav">
-                <?php include_once "template/black/side.menu.php";?>
+                <?php side_menu();?>
             </ul>
         </div>
     </div>
@@ -127,20 +109,11 @@
                                 </div>
                                 <b class="caret d-none d-lg-block d-xl-block"></b>
                                 <p class="d-lg-none">
-                                    Log out
+                                    Main Menu
                                 </p>
                             </a>
                             <ul class="dropdown-menu dropdown-navbar">
-                                <li class="nav-link">
-                                    <a href="index.php?u=user&ui=profile&e=1" class="nav-item dropdown-item">Profile</a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="#" class="nav-item dropdown-item">Settings</a>
-                                </li>
-                                <div class="dropdown-divider"></div>
-                                <li class="nav-link">
-                                    <a href="index.php?u=user&ui=logout&e=1" class="nav-item dropdown-item">Log out</a>
-                                </li>
+                                <?php echo top_menu_profile();?>
                             </ul>
                         </li>
                         <li class="separator d-lg-none"></li>
@@ -258,132 +231,7 @@
                             <div class="table-full-width table-responsive">
                                 <table class="table">
                                     <tbody>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <label class="form-check-label">
-                                                    <input class="form-check-input" type="checkbox" value="">
-                                                    <span class="form-check-sign">
-                                <span class="check"></span>
-                              </span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p class="title">Update the Documentation</p>
-                                            <p class="text-muted">Dwuamish Head, Seattle, WA 8:47 AM</p>
-                                        </td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                                                <i class="tim-icons icon-pencil"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <label class="form-check-label">
-                                                    <input class="form-check-input" type="checkbox" value="" checked="">
-                                                    <span class="form-check-sign">
-                                <span class="check"></span>
-                              </span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p class="title">GDPR Compliance</p>
-                                            <p class="text-muted">The GDPR is a regulation that requires businesses to protect the personal data and privacy of Europe citizens for transactions that occur within EU member states.</p>
-                                        </td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                                                <i class="tim-icons icon-pencil"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <label class="form-check-label">
-                                                    <input class="form-check-input" type="checkbox" value="">
-                                                    <span class="form-check-sign">
-                                <span class="check"></span>
-                              </span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p class="title">Solve the issues</p>
-                                            <p class="text-muted">Fifty percent of all respondents said they would be more likely to shop at a company </p>
-                                        </td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                                                <i class="tim-icons icon-pencil"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <label class="form-check-label">
-                                                    <input class="form-check-input" type="checkbox" value="">
-                                                    <span class="form-check-sign">
-                                <span class="check"></span>
-                              </span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p class="title">Release v2.0.0</p>
-                                            <p class="text-muted">Ra Ave SW, Seattle, WA 98116, SUA 11:19 AM</p>
-                                        </td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                                                <i class="tim-icons icon-pencil"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <label class="form-check-label">
-                                                    <input class="form-check-input" type="checkbox" value="">
-                                                    <span class="form-check-sign">
-                                <span class="check"></span>
-                              </span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p class="title">Export the processed files</p>
-                                            <p class="text-muted">The report also shows that consumers will not easily forgive a company once a breach exposing their personal data occurs. </p>
-                                        </td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                                                <i class="tim-icons icon-pencil"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <div class="form-check">
-                                                <label class="form-check-label">
-                                                    <input class="form-check-input" type="checkbox" value="">
-                                                    <span class="form-check-sign">
-                                <span class="check"></span>
-                              </span>
-                                                </label>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <p class="title">Arival at export process</p>
-                                            <p class="text-muted">Capitol Hill, Seattle, WA 12:34 AM</p>
-                                        </td>
-                                        <td class="td-actions text-right">
-                                            <button type="button" rel="tooltip" title="" class="btn btn-link" data-original-title="Edit Task">
-                                                <i class="tim-icons icon-pencil"></i>
-                                            </button>
-                                        </td>
-                                    </tr>
+                                    <?php get_information($conn);?>
                                     </tbody>
                                 </table>
                             </div>
@@ -393,124 +241,28 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="card ">
                         <div class="card-header">
-                            <h4 class="card-title"> Simple Table</h4>
+                            <h4 class="card-title"> Global Account</h4>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table tablesorter " id="">
                                     <thead class=" text-primary">
                                     <th>
-                                        Name
+                                        Date
                                     </th>
                                     <th>
-                                        Country
+                                        Account
                                     </th>
-                                    <th>
-                                        City
+                                    <th>Ref.No#</th>
+                                    <th class="text-right">
+                                        Debit
                                     </th>
-                                    <th class="text-center">
-                                        Salary
+                                    <th class="text-right">
+                                        Credit
                                     </th>
                                     </thead>
                                     <tbody>
-                                    <tr>
-                                        <td>
-                                            Dakota Rice
-                                        </td>
-                                        <td>
-                                            Niger
-                                        </td>
-                                        <td>
-                                            Oud-Turnhout
-                                        </td>
-                                        <td class="text-center">
-                                            $36,738
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Minerva Hooper
-                                        </td>
-                                        <td>
-                                            Curaçao
-                                        </td>
-                                        <td>
-                                            Sinaai-Waas
-                                        </td>
-                                        <td class="text-center">
-                                            $23,789
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Sage Rodriguez
-                                        </td>
-                                        <td>
-                                            Netherlands
-                                        </td>
-                                        <td>
-                                            Baileux
-                                        </td>
-                                        <td class="text-center">
-                                            $56,142
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Philip Chaney
-                                        </td>
-                                        <td>
-                                            Korea, South
-                                        </td>
-                                        <td>
-                                            Overland Park
-                                        </td>
-                                        <td class="text-center">
-                                            $38,735
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Doris Greene
-                                        </td>
-                                        <td>
-                                            Malawi
-                                        </td>
-                                        <td>
-                                            Feldkirchen in Kärnten
-                                        </td>
-                                        <td class="text-center">
-                                            $63,542
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Mason Porter
-                                        </td>
-                                        <td>
-                                            Chile
-                                        </td>
-                                        <td>
-                                            Gloucester
-                                        </td>
-                                        <td class="text-center">
-                                            $78,615
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            Jon Porter
-                                        </td>
-                                        <td>
-                                            Portugal
-                                        </td>
-                                        <td>
-                                            Gloucester
-                                        </td>
-                                        <td class="text-center">
-                                            $98,615
-                                        </td>
-                                    </tr>
+                                    <?php general_ledger($conn);?>
                                     </tbody>
                                 </table>
                             </div>
@@ -726,3 +478,4 @@
 </body>
 
 </html>
+
