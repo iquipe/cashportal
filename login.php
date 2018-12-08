@@ -24,46 +24,34 @@ if(!$_SERVER["REQUEST_METHOD"] ==="POST"){
 
             //check if email exist
             $sql = "SELECT * FROM get_user WHERE `username` = ? and `password` = ?";
-            $check = $conn->prepare($sql);
-            $check->bind_param("ss",$username,$password);
+            $stmt = $conn->prepare($sql);
+            $stmt->bind_param("ss",$username,$password);
 
             //sign up session
             $username = $_POST['username'];
             $password = $_POST['password'];
-            $check->execute();
+            $stmt->execute();
 
-            $result =$check->get_result();
-            $login = mysqli_fetch_assoc($result);
-            if(isset($login["token"])){
+            $result = $stmt->get_result();
+            if($result->num_rows === 0){
+                header("location: index.php?validate=0");
+            }else {
+                while ($row = $result->fetch_assoc()) {
+                    $token = $row['token'];
+                    $status = $row['statusID'];
+                    $account = $row["account"];
+                    $userID = ((($row['userID'] * 2) - 16043572) / 1024);
+                    $_SESSION['user-token'] = $token;
+                    $_SESSION['user-status'] = $status;
+                    $userStatus = $row['statusID'];
 
-                $token = $login["token"];
+                    setcookie("user-token", $token, time() + (86400 * 30), "/");
+                    setcookie("user-account", $account, time() + (86400 * 30), "/");
+                    setcookie("user-track-id", $userID, time() + (86400 * 30), "/");
 
-                $account = $login["account"];
-                $userID = ((($login['userID']*2)-16043572)/1024);
-                $_SESSION['user-token'] = $token;
-                $_SESSION['user-status']= $login['statusID'];
-                $userStatus= $login['statusID'];
-                setcookie("user-token",$token,time()+(86400 * 30),"/");
-                setcookie("user-account",$account,time()+(86400 * 30),"/");
-                setcookie("user-track-id",$userID,time()+(86400 * 30),"/");
-                //setcookie("user-status-id",$userStatus,time()+(86400 * 30),"/");
-
-                switch ($userStatus){
-                    case 3:
-                        header("location: index.php?u=super&ui=dashboard&e=1");
-                    break;
-
-                    case 2:
-                        header("location: index.php?u=admin&ui=dashboard&e=1");
-                        break;
-                    default:
-                        header("location: index.php?u=user&ui=dashboard&e=1");
+                    header("location: index.php?u=user&ui=dashboard&e=1");
                 }
-
-            }else{
-                header("location: index.php?validate=1");
             }
-
         }
     }elseif ($_POST['submit'] === "Create account"){
 
