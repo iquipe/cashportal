@@ -23,10 +23,10 @@
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text logo-mini">
-                    CT
+                   RATE
                 </a>
                 <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-                    Creative Tim
+                    <?php echo ExchangeRate:: get_rate();?>
                 </a>
             </div>
             <ul class="nav">

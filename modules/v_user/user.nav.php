@@ -9,6 +9,7 @@
 include_once "control/db.php";
 include_once "global/session.php";
 include_once "global/function.php";
+include_once "modules/exchange.php";
 
 
 

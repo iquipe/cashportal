@@ -33,7 +33,7 @@ class ExchangeRate{
     }
 
     function get_rate(){
-
+        $GLOBALS['country-code'] = "GH";
         if (!isset($GLOBALS['country-code'])){
             echo "error";
         }else{
