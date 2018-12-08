@@ -18,9 +18,10 @@ define("SMS_CHARGES", '0.00');
 
 //standard currency use, should be 0.00 as default
 define("CC_USD",'0.00');
-define("CC_GHA",'0.00');
-define("CC_NGN",'0.00');
 
+//exchange rate in %
+define("EXCHANGE",'0.05');
+define("RATE",'0,00');
 
 //social media
 define("FACEBOOK",'#');

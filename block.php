@@ -9,12 +9,14 @@
 include_once "setup.php";
 include_once "control/db.php";
 include_once "global/session.php";
+include_once "modules/exchange.php";
 include_once "plugin/qrcode/qrlib.php";
 include_once "modules/users.profile.php";
 include_once "modules/user.wallet.php";
 include_once "modules/user.bank.php";
 include_once "modules/cryptocurrency.php";
 include_once "modules/mobile.php";
+
 
 if (!isset($_COOKIE['user-token'])){
     echo "session not found";
@@ -30,12 +32,12 @@ if (!isset($_COOKIE['user-token'])){
             echo "invalid ui session";
         }else{
                 $action = $_REQUEST['submit'];
-            if ($_SESSION['user-status'] ==3){
-                require_once "modules/v_admin/super.block.navigation.php";
+            if ($_SESSION['user-status'] == 3){
+                require "modules/v_admin/super.block.navigation.php";
             }elseif ($_SESSION['user-status'] == 2){
-                require_once "modules/v_merchant/admin.block.navigation.php";
+                require_once "modules/v_merchant/merchant.block.navigation.php";
             }else{
-                require_once "modules/v_user/user.block.navigation.php";
+                require"modules/v_user/user.block.navigation.php";
             }
         }
     }

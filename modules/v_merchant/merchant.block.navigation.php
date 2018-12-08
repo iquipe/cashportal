@@ -9,9 +9,9 @@
 
 include_once "setup.php";
 include_once "control/db.php";
-include_once "users.profile.php";
-include_once "user.wallet.php";
-include_once "top.user.account.php";
+include_once "modules/users.profile.php";
+include_once "modules/user.wallet.php";
+include_once "modules/top.user.account.php";
 
 if (!isset($_COOKIE['user-token'])){
     echo "session not found";
@@ -47,6 +47,7 @@ if (!isset($_COOKIE['user-token'])){
                     break;
 
                 case"search-account";
+                    //echo "search-account";
                     if ($_POST['check'] == 1){
                         $mobile = $_POST['q'];
                         TopUserAccount::SearchUserByMobile($conn,$mobile);

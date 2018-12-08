@@ -33,11 +33,14 @@ function get_system_account($conn){
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while ($row = mysqli_fetch_assoc($result)) {
+            $debit = $row['debit'] * RATE;
+            $credit = $row['debit'] * RATE;
+            $bal = $row['bal'] * RATE;
             echo "
             <h3 class='card-title'>Account <i class='tim-icons icon-send text-success '></i>{$row['account']}</h3>
-            <h3 class='card-title'>Cash In <i class='tim-icons icon-send text-primary '></i>{$row['debit']}</h3>
-            <h3 class='card-title'>Cash Out<i class='tim-icons icon-send text-danger '></i>{$row['credit']}</h3>
-            <h3 class='card-title'>Available<i class='tim-icons icon-send text-success '></i>{$row['bal']}</h3>
+            <h3 class='card-title'>Cash In <i class='tim-icons icon-send text-primary '></i>{$debit}</h3>
+            <h3 class='card-title'>Cash Out<i class='tim-icons icon-send text-danger '></i>{$credit}</h3>
+            <h3 class='card-title'>Available<i class='tim-icons icon-send text-success '></i>{$bal}</h3>
          ";
         }
     }
@@ -86,13 +89,15 @@ function general_ledger($conn){
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
+            $debit = $row['debit'] * RATE;
+            $credit = $row['debit'] * RATE;
             echo"
                 <tr>
                     <td>{$row['tran_date']}</td>
                     <td>{$row['account']}</td>
                     <td>{$row['ref']}</td>
-                    <td class='text-center'>{$row['debit']}</td>
-                    <td class='text - center'>{$row['credit']}</td>
+                    <td class='text-center'>{$debit}</td>
+                    <td class='text - center'>{$credit}</td>
                 </tr>
             ";
 
@@ -108,13 +113,14 @@ function top_up_account($conn,$userID){
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
+            $amount = $row['amount'] * RATE;
             echo "
                 <tr>
                     <td>{$row['tran_time']}</td>
                     <td>{$row['ref']}</td>
                     <td>{$row['account']}</t>
                     <td>{$row['mobile']}</td>
-                    <td class='text-right'>{$row['amount']}</td>
+                    <td class='text-right'>{$amount}</td>
                 </tr>
     ";
         }
@@ -128,14 +134,16 @@ function user_transaction($conn,$userID){
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
+            $debit = $row['debit'] * RATE;
+            $credit = $row['debit'] * RATE;
             echo "
                 <tr>
                     <td>{$row['tran_date']}</td>
                     <td>{$row['detail']}</td>
                     <td>{$row['ref']}</td>
                     <td>{$row['payID']}</td>
-                    <td class='text-right'>{$row['debt']}</td>
-                    <td class='text-right'>{$row['credit']}</td>
+                    <td class='text-right'>{$debit}</td>
+                    <td class='text-right'>{$credit}</td>
                 </tr>
     ";
         }
@@ -150,14 +158,16 @@ function user_bank_transaction($conn,$userID){
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
+            $debit = $row['bank_dr'] * RATE;
+            $credit = $row['bank_cr'] * RATE;
             echo "
                 <tr>
                     <td>{$row['tran_date']}</td>
                     <td>{$row['detail']}</td>
                     <td>{$row['ref']}</td>
                     <td>{$row['payID']}</td>
-                    <td class='text-right'>{$row['bank_dr']}</td>
-                    <td class='text-right'>{$row['bank_cr']}</td>
+                    <td class='text-right'>{$debit}</td>
+                    <td class='text-right'>{$credit}</td>
                 </tr>
     ";
         }
@@ -172,13 +182,15 @@ function user_wallet_transaction($conn,$userID){
     if (mysqli_num_rows($result) > 0) {
         // output data of each row
         while($row = mysqli_fetch_assoc($result)) {
+            $debit = $row['cash_dr'] * RATE;
+            $credit = $row['cash_cr'] * RATE;
             echo "
                 <tr>
                     <td>{$row['tran_date']}</td>
                     <td>{$row['ref']}</td>
                     <td>{$row['detail']}</td>
-                    <td class='text-right'>{$row['cash_dr']}</td>
-                    <td class='text-right'>{$row['cash_cr']}</td>
+                    <td class='text-right'>{$debit}</td>
+                    <td class='text-right'>{$credit}</td>
                 </tr>
     ";
         }

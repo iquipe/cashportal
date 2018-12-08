@@ -6,6 +6,12 @@
  * Time: 7:06 PM
  */
 
+include_once "setup.php";
+include_once "control/db.php";
+include_once "modules/users.profile.php";
+include_once "modules/user.wallet.php";
+include_once "modules/top.user.account.php";
+
 switch ($action){
 
     case"logout";

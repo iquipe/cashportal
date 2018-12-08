@@ -24,14 +24,31 @@ class TopUserAccount{
 
             header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=1");
         }else{
-            $_SESSION['transferID'] = "";
-            $_SESSION['account'] = "";
-            $_SESSION['mobile'] = "";
-            $_SESSION['name'] = "";
-            $_SESSION['debit'] = "";
-            $_SESSION['credit'] ="";
-            $_SESSION['balance'] = "";
-            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
+
+            $sql="SELECT * FROM `get_user` where mobile ='$mobile' and activeID=1";
+            $result=$conn->query($sql);
+            if($result->num_rows > 0) {
+                $m = $result->fetch_assoc();
+                $_SESSION['transferID'] = $m['userID'];
+                $_SESSION['account'] = $m['account'];
+                $_SESSION['mobile'] = $m['mobile'];
+                $_SESSION['name'] = $m['fname'] . " " . $m['lname'];
+                $_SESSION['debit'] = 0;
+                $_SESSION['credit'] = 0;
+                $_SESSION['balance'] = 0;
+
+                header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=1");
+            }else {
+                $_SESSION['transferID'] = "";
+                $_SESSION['account'] = "";
+                $_SESSION['mobile'] = "";
+                $_SESSION['name'] = "";
+                $_SESSION['debit'] = "";
+                $_SESSION['credit'] = "";
+                $_SESSION['balance'] = "";
+
+                header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=not-found");
+            }
         }
     }
 
@@ -51,14 +68,29 @@ class TopUserAccount{
 
             header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=1");
         }else{
-            $_SESSION['transferID'] = "";
-            $_SESSION['account'] = "";
-            $_SESSION['mobile'] = "";
-            $_SESSION['name'] = "";
-            $_SESSION['debit'] = "";
-            $_SESSION['credit'] ="";
-            $_SESSION['balance'] = "";
-            header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
+
+            $sql="SELECT * FROM `get_user` where account ='$account' and activeID=1";
+            $result=$conn->query($sql);
+            if($result->num_rows > 0) {
+                $m = $result->fetch_assoc();
+                $_SESSION['transferID'] = $m['userID'];
+                $_SESSION['account'] = $m['account'];
+                $_SESSION['mobile'] = $m['mobile'];
+                $_SESSION['name'] = $m['fname'] . " " . $m['lname'];
+                $_SESSION['debit'] = 0;
+                $_SESSION['credit'] = 0;
+                $_SESSION['balance'] = 0;
+                header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=1");
+            }else {
+                $_SESSION['transferID'] = "";
+                $_SESSION['account'] = "";
+                $_SESSION['mobile'] = "";
+                $_SESSION['name'] = "";
+                $_SESSION['debit'] = "";
+                $_SESSION['credit'] = "";
+                $_SESSION['balance'] = "";
+                header("location: index.php?u={$_SESSION['portal']}&ui=top.up-client&e=0");
+            }
         }
     }
 
