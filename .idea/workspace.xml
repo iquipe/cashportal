@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c9881b-754f-4fff-9d96-b827b31036f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/control/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/db.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +88,7 @@
           <entry key="html" value="48" />
           <entry key="js" value="36" />
           <entry key="md" value="222" />
-          <entry key="php" value="26622" />
+          <entry key="php" value="26704" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -99,7 +97,7 @@
           <entry key="HTML" value="262" />
           <entry key="JavaScript" value="36" />
           <entry key="Markdown" value="222" />
-          <entry key="PHP" value="26408" />
+          <entry key="PHP" value="26490" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -128,8 +126,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="423">
+              <caret line="38" selection-start-line="38" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -231,7 +229,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-327" />
     <option name="y" value="93" />
     <option name="width" value="1366" />
@@ -335,7 +333,7 @@
       <workItem from="1543916513602" duration="2207000" />
       <workItem from="1544081239594" duration="15857000" />
       <workItem from="1544226341680" duration="32193000" />
-      <workItem from="1544277444732" duration="3495000" />
+      <workItem from="1544277444732" duration="6648000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1543916722791</created>
@@ -348,11 +346,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246170000" />
+    <option name="totallyTimeSpent" value="249323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -797,8 +794,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+        <state relative-caret-position="423">
+          <caret line="38" selection-start-line="38" selection-end-line="39" />
         </state>
       </provider>
     </entry>
