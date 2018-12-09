@@ -6,18 +6,29 @@
  * Time: 5:27 PM
  */
 
-$server = "localhost";
-$username = "root";
-$password = "";
-$database = "cash_portal";
+if (isset($_SERVER['SERVER_NAME'])){
+    if ($_SERVER['SERVER_NAME'] == "localhost" || $_SERVER['SERVER_NAME'] == '172.0.0.1'){
+        $server = "localhost";
+        $username = "root";
+        $password = "";
+        $database = "cash_portal";
+        $port = "3306";
+        // Create connection
+        $conn = new mysqli($server, $username, $password, $database,$port);
+    }else{
+        $server = "iquipe.heliohost.org";
+        $username = "iquipe_cashporta";
+        $password = "@passWD8282";
+        $database = "iquipe_cashportal";
+        $port = "3306";
+        // Create connection
+        $conn = new mysqli($server, $username, $password, $database,$port);
+    }
 
-//$server = "iquipe.heliohost.org";
-//$username = "iquipe_cashporta";
-//$password = "@passWD8282";
-//$database = "iquipe_cashportal";
-$port = "3306";
-// Create connection
-$conn = new mysqli($server, $username, $password, $database,$port);
+} else{
+    echo "CAN NOT CONNECT TO SERVER";
+    exit(0);
+}
 
 // Check connection
 if (!$conn) {

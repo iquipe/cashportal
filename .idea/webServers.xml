@@ -18,6 +18,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="146ca98c-9562-4265-8410-0628270e02ba" name="ricky.heliohost.org" url="http://iquipe.heliohost.org">
+        <fileTransfer host="ricky.heliohost.org" port="1312" rootFolder="/home/iquipe" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="1312" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

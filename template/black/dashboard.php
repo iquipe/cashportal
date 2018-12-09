@@ -17,7 +17,7 @@ include_once "top.menu.php";
 
 <body class=" ">
 <div class="wrapper ">
-    <div class="sidebar">
+    <div class="sidebar" data-color="blue">
         <!--
           Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"
       -->

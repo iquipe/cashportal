@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52c9881b-754f-4fff-9d96-b827b31036f2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/black/dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/black/dashboard.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +69,7 @@
           <entry key="html" value="1" />
           <entry key="js" value="6" />
           <entry key="md" value="1" />
-          <entry key="php" value="359" />
+          <entry key="php" value="363" />
           <entry key="png" value="5" />
         </counts>
       </usages-collector>
@@ -79,7 +80,7 @@
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="6" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="359" />
+          <entry key="PHP" value="363" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -88,7 +89,7 @@
           <entry key="html" value="48" />
           <entry key="js" value="36" />
           <entry key="md" value="222" />
-          <entry key="php" value="26704" />
+          <entry key="php" value="26895" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
@@ -97,7 +98,7 @@
           <entry key="HTML" value="262" />
           <entry key="JavaScript" value="36" />
           <entry key="Markdown" value="222" />
-          <entry key="PHP" value="26490" />
+          <entry key="PHP" value="26681" />
           <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
@@ -123,7 +124,25 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/control/db.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/template/black/dashboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="423">
@@ -169,7 +188,6 @@
         <option value="$PROJECT_DIR$/modules/crypto.pay.out.php" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/modules/admin.nav.php" />
-        <option value="$PROJECT_DIR$/template/black/dashboard.php" />
         <option value="$PROJECT_DIR$/modules/user.nav.php" />
         <option value="$PROJECT_DIR$/template/argon/function.php" />
         <option value="$PROJECT_DIR$/template/argon/log.in.php" />
@@ -215,8 +233,9 @@
         <option value="$PROJECT_DIR$/modules/exchange.php" />
         <option value="$PROJECT_DIR$/modules/v_user/user.nav.php" />
         <option value="$PROJECT_DIR$/user/user.dashboard.php" />
-        <option value="$PROJECT_DIR$/control/db.php" />
         <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/control/db.php" />
+        <option value="$PROJECT_DIR$/template/black/dashboard.php" />
       </list>
     </option>
   </component>
@@ -229,7 +248,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-327" />
     <option name="y" value="93" />
     <option name="width" value="1366" />
@@ -254,23 +273,13 @@
             <path>
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-              <item name="control" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
               <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cashportal" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="v_user" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
+              <item name="black" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cashportal" type="b2602c69:ProjectViewProjectNode" />
@@ -283,7 +292,12 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -333,7 +347,7 @@
       <workItem from="1543916513602" duration="2207000" />
       <workItem from="1544081239594" duration="15857000" />
       <workItem from="1544226341680" duration="32193000" />
-      <workItem from="1544277444732" duration="6648000" />
+      <workItem from="1544277444732" duration="9324000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1543916722791</created>
@@ -346,10 +360,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="249323000" />
+    <option name="totallyTimeSpent" value="251999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28441754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,6 +383,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="12" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Remote Host" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -698,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/black/dashboard.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/block.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -723,13 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/control/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -796,6 +798,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="38" selection-start-line="38" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/control/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/black/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="20" column="12" lean-forward="true" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
         </state>
       </provider>
     </entry>
