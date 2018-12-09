@@ -23,7 +23,7 @@ if(!$_SERVER["REQUEST_METHOD"] ==="POST"){
         }else{
 
             //check if email exist
-            $sql = "SELECT * FROM get_user WHERE `username` = ? and `password` = ?";
+            $sql = "SELECT * FROM `user` WHERE `username` = ? and `password` = ?";
             $stmt = $conn->prepare($sql);
             $stmt->bind_param("ss",$username,$password);
 
