@@ -57,17 +57,17 @@ if(!$_SERVER["REQUEST_METHOD"] ==="POST"){
 
         //check if email exist
         $sql = "SELECT * FROM get_user WHERE get_user.email = ?";
-        $check = $conn->prepare($sql);
-        $check->bind_param("s",$email);
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param("s",$email);
 
         //sign up session
         $username = $_POST['username'];
         $password = $_POST['password'];
         $email = $_POST['email'];
 
-        $check->execute();
+        $stmt->execute();
 
-        $result =$check->get_result();
+        $result = $stmt->get_result();
         if (mysqli_num_rows($result) > 0){
             //mail exist
             header("location: index.php?validate=1");
