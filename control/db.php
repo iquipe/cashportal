@@ -4,16 +4,6 @@
  * User: Andrew Quaye
  * Date: 23/11/2018
  * Time: 5:27 PM
-
-Username: 5a3jW5BSoh
-
-Password: EHtkc0dGUp
-
-Database Name: 5a3jW5BSoh
-
-Server: remotemysql.com
-
-Port: 3306
  */
 
 if (isset($_SERVER['SERVER_NAME'])){
@@ -26,10 +16,10 @@ if (isset($_SERVER['SERVER_NAME'])){
         // Create connection
         $conn = new mysqli($server, $username, $password, $database,$port);
     }else{
-        $server = "remotemysql.com";
-        $username = "5a3jW5BSoh";
-        $password = "EHtkc0dGUp";
-        $database = "5a3jW5BSoh";
+        $server = "localhost";
+        $username = "root";
+        $password = "@passWD8282";
+        $database = "cash_portal";
         $port = "3306";
         // Create connection
         $conn = new mysqli($server, $username, $password, $database,$port);
