@@ -18,7 +18,7 @@ if (isset($_SERVER['SERVER_NAME'])){
     }else{
         $server = "localhost";
         $username = "root";
-        $password = "@passWD8282";
+        $password = "";
         $database = "cash_portal";
         $port = "3306";
         // Create connection
